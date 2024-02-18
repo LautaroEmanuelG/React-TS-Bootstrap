@@ -1,10 +1,10 @@
+import { Cards } from "./components/Cards"
 
 function App() {
-
   return (
-    <>
-      <h1>Hola gente</h1>
-    </>
+    <section className="container">
+      <Cards />
+    </section>
   )
 }
 

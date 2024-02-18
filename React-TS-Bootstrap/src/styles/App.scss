@@ -1,2 +1,8 @@
 /* The following line can be included in a src/App.scss */
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    background-color: #2f2f2f;
+    min-height: 100%;
+    width: 100%;
+}
