@@ -1,10 +1,10 @@
 [
-  { "nombre": "atanagildo", "img": "rey_atanagildo.png" },
-  { "nombre": "ataulfo", "img": "rey_ataulfo.png" },
-  { "nombre": "ervigio", "img": "rey_ervigio.png" },
-  { "nombre": "incognito", "img": "rey_incognito.png" },
-  { "nombre": "leogivildo", "img": "rey_leogivildo.png" },
-  { "nombre": "recesvinto", "img": "rey_recesvinto.png" },
-  { "nombre": "sisebuto", "img": "rey_sisebuto.png" },
-  { "nombre": "teodorico", "img": "rey_teodorico.png" }
+  { "nombre": "atanagildo", "img": "rey_atanagildo.png" ,"reynado": "560-567","descripcion":"Durante su reynado fue un rey amable y bondadoso, colocando al pueblo antes que sus caprichos", "tipo": "amable" },
+  { "nombre": "ataulfo", "img": "rey_ataulfo.png","reynado":"304-324", "descripcion": "Rey bárbaro que lideró a los visigodos en la Península Ibérica" , "tipo": "bárbaro" },
+  { "nombre": "ervigio", "img": "rey_ervigio.png" , "reynado":"340-356", "descripcion": "Rey estudiado que promovió el cristianismo en su reino", "tipo": "católico" },
+  { "nombre": "incognito", "img": "rey_incognito.png" ,"reynado":"undefined", "descripcion": "Rey cuya identidad y reino son desconocidos", "tipo": "desconocido" },
+  { "nombre": "leogivildo", "img": "rey_leogivildo.png" , "reynado":"402-402", "descripcion": "Rey militar que persiguió a los cristianos", "tipo": "barbárico" },
+  { "nombre": "recesvinto", "img": "rey_recesvinto.png" , "reynado":"642-702", "descripcion": "Rey instruido por grandes, cientificos, que promovió la unificación del reino", "tipo": "unificador" },
+  { "nombre": "sisebuto", "img": "rey_sisebuto.png","reynado":"612-621", "descripcion": "Rey joven que se convirtió al cristianismo y promovió la persecución de los judíos", "tipo": "cristiano" },
+  { "nombre": "teodorico", "img": "rey_teodorico.png","reynado":"511-526", "descripcion": "Rey anciano que fue conocido por su sabiduría y justicia", "tipo": "sabio" }
 ]
