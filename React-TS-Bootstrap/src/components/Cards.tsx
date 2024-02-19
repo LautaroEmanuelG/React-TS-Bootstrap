@@ -12,8 +12,7 @@ export const Cards = () => {
 				variant="primary">
 				Se agregaron {años} a los reynado
 			</Alert>
-			<Row
-				className="g-4">
+			<Row className="g-4">
 				{reyes.map((rey, index) => {
 					if (rey.nombre.includes('incognito')) {
 						return null;
