@@ -10,7 +10,7 @@ interface ReyCardProps {
 	setAños: number | any;
 }
 
-export const ReyCard = ({
+export const ReyCard: React.FC<ReyCardProps> = ({
 	nombre,
 	img,
 	reynado,
@@ -27,10 +27,11 @@ export const ReyCard = ({
 		let años = Number(fin) - Number(inicio);
 		return años;
 	};
-	const sumar = (elemento: any) => {
+	const sumar = (elemento: React.MouseEvent<HTMLElement>) => {
 		const añosReynado = calcularReynado();
 		setAños((e: number) => e + añosReynado);
-		elemento.target.parentNode.parentNode.parentNode.style.display = 'none';
+		const target = elemento.currentTarget as HTMLElement;
+		target.style.display = 'none';
 	};
 	return (
 		<Card

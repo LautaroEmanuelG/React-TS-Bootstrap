@@ -2,8 +2,8 @@ import { Alert, Row } from 'react-bootstrap';
 import reyes from '../../public/imgs/listReyes.json';
 import { ReyCard } from './ReyCard';
 import { useState } from 'react';
-export const Cards = () => {
-	const [años, setAños] = useState(0);
+export const Cards: React.FC = () => {
+	const [años, setAños] = useState<number>(0);
 	return (
 		<>
 			<h1 className="text-center text-light">Reyes</h1>
